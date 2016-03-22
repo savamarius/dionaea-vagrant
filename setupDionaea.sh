@@ -14,7 +14,7 @@ mkdir /opt/dionaea
 cd /opt/dionaea
 
 #Install liblcfg
-git clone git://git.carnivore.it/liblcfg.git liblcfg
+git clone git clone https://github.com/ThomasAdam/liblcfg.git liblcfg
 cd liblcfg/code
 autoreconf -vi
 ./configure --prefix=/opt/dionaea
@@ -70,7 +70,7 @@ make install
 cd ..
 
 #Install Dionaea
-git clone git://git.carnivore.it/dionaea.git dionaea
+git clone https://github.com/rep/dionaea.git dionaea
 cd dionaea
 autoreconf -vi
 ./configure --with-lcfg-include=/opt/dionaea/include/ \
