@@ -9,7 +9,7 @@ Dionaea-Vagrant provides a Vagrant configuration file (Vagrantfile) and shell sc
 2. [Vagrant](https://www.vagrantup.com)
 
 ###QUICK INSTALLATION:
-1. `git clone https://github.com/ikoniaris/dionaea-vagrant && cd dionaea-vagrant`
+1. `git clone https://github.com/savamarius/dionaea-vagrant.git && cd dionaea-vagrant`
 2. `vagrant up`
 
 This will download (only the first time) a virtual disk, create a new Ubuntu 12.04 LTS VM on the fly and start it, install Dionaea and all of its dependencies and execute it as daemon along with p0f. And that’s it!
